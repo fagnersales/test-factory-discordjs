@@ -1,0 +1,24 @@
+{
+  "name": "test-factory",
+  "version": "1.0.0",
+  "description": "Testing factory pattern using express & discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fagnersales/test-factory-discordjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fagnersales/test-factory-discordjs/issues"
+  },
+  "homepage": "https://github.com/fagnersales/test-factory-discordjs#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.5"
+  }
+}
