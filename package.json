@@ -4,7 +4,7 @@
   "description": "Testing factory pattern using express & discord.js",
   "main": "index.js",
   "scripts": {
-    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server",
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -2,7 +2,7 @@
 import { config } from 'dotenv'
 
 config()
-
 import './firebase'
+
 import './server'
 import './bot'

@@ -5,6 +5,10 @@ import { BotApplication } from '../BotApplication/BotApplication'
 export class BotsApplicationManager implements IBotsApplicationManager {
   private botsApplication: Map<string, BotApplication> = new Map()
 
+  get(token: string): BotApplication | undefined {
+    return this.botsApplication.get(token)
+  }
+
   async add(data: BotApplicationData): Promise<void> {
     const alreadyAdded = this.botsApplication.has(data.token)
 
